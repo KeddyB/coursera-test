@@ -1,0 +1,32 @@
+/* general styling */
+*{
+   padding: 0;
+   margin: 0;
+   font-family: cursive;
+}
+/* desktop size screens */
+.navbar{
+   background-color: gray;
+   border-top: solid black;
+   border-bottom: solid black;
+   height: 13%;
+}
+.navbar .container, h1{
+   margin: 0;
+}
+.container{
+   padding: 0;
+}
+.box h2{
+   font-family: cursive;
+   margin: 0 auto 0;
+   width: 15%;
+   
+}
+
+
+
+/* tablet size screens */
+
+
+/* mobile style screens */
