@@ -9,19 +9,23 @@
    background-color: gray;
    border-top: solid black;
    border-bottom: solid black;
-   height: 13%;
+   height: 15%;
 }
 .navbar .container, h1{
-   margin: 0;
+   margin: 0 0 0 5%;
+   font-size: 1.4em;  /*make the text size dynamic */
 }
 .container{
    padding: 0;
+}
+.container div.box{
+   width: 70%;
 }
 .box h2{
    font-family: cursive;
    margin: 0 auto 0;
    width: 15%;
-   
+   height: 1.3em;/*make the text size dynamic */
 }
 
 
