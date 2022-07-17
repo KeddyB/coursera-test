@@ -15,9 +15,6 @@
    margin: 0 0 0 5%;
    font-size: 1.7em;/*make the text size dynamic */
 }
-.container{
-   padding: 0;
-}
 .container div.box{
    width: 100%;
 }
