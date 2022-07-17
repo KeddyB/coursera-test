@@ -12,27 +12,24 @@
    height: 15%;
 }
 .navbar .container, h1{
-   margin: 0 0 0 5%;
-   font-size: 1.7em;/*make the text size dynamic */
+   margin: 0 0 0 3%;
+   font-size: 1.7em;
 }
 .container div.box{
    width: 100%;
 }
 .box h2{
-   font-family: cursive;
-   margin: 3% auto 1%;
-   width: 16%;
+   margin: 3% auto 3%;
+   width: 230px;
    font-size: 50px;/*make the text size dynamic */
 }
-.col-md-12 .box{
-   width: 100%;
+.col-md-12{
    background-color: grey;
+   margin: 0 3% 0;
 }
-h3{
-   margin: 0 auto 0;
-   position: relative;
+span{
+   font-size: 27px;
 }
-
 
 /* tablet size screens */
 
