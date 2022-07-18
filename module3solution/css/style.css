@@ -4,34 +4,111 @@
    margin: 0;
    font-family: cursive;
 }
-/* desktop size screens */
-.navbar{
-   background-color: gray;
-   border-top: solid black;
-   border-bottom: solid black;
-   height: 15%;
-}
-.navbar .container, h1{
-   margin: 0 0 0 3%;
-   font-size: 1.7em;
-}
-.container div.box{
-   width: 100%;
-}
-.box h2{
-   margin: 3% auto 3%;
-   width: 230px;
-   font-size: 50px;/*make the text size dynamic */
-}
-.col-md-12{
-   background-color: grey;
-   margin: 0 3% 0;
-}
-span{
-   font-size: 27px;
+/* desktop size screens  and tablets*/
+@media (min-width: 992px){
+   .navbar{
+      background-color: gray;
+      border-top: solid black;
+      border-bottom: solid black;
+      height: 15%;
+   }
+   .navbar .container, h1{
+      margin: 0 0 0 3%;
+      font-size: 1.7em;
+      width: 100%;
+   }
+   .box h2{
+      margin: 3% auto 3%;
+      width: 230px;
+      font-size: 50px;/*make the text size dynamic */
+   }
+   .col-md-12 .box{
+      background-color: grey;
+      margin: 0 2% 0;
+      padding: 10px 2% 0;
+   }
+   h3{
+      font-size: 40px;
+      margin: 1% auto 1% !important;
+      width: 144px;
+   }
+   span{
+      font-size: 27px;
+   }
+   button{
+      position: absolute;
+   }
 }
 
-/* tablet size screens */
-
-
+@media (min-width: 768px) and (max-width: 991.9px){
+   .navbar{
+      background-color: gray;
+      border-top: solid black 3px;
+      border-bottom: solid black 3px;
+      height: 11%;
+   }
+   .navbar .container, h1{
+      margin: 0 0 0 3%;
+      font-size: 1.4em;
+      width: 100%;
+   }
+   .box h2{
+      margin: 3% auto 3%;
+      width: 184px;
+      font-size: 40px;/*make the text size dynamic */
+   }
+   .col-sm-12 .box{
+      background-color: grey;
+      margin: 0 2% 0;
+      padding: 7px 2% 0;
+   }
+   h3{
+      font-size: 35px;
+      margin: 1% auto 1% !important;
+      width: 125px;
+   }
+   span{
+      font-size: 23px;
+   }
+   button{
+      position: absolute;
+   }
+}
 /* mobile style screens */
+@media(max-width: 767.9px){
+   .navbar{
+      background-color: gray;
+      border-top: solid black 1px;
+      border-bottom: solid black 1px;
+      height: 10%;
+   }
+   .navbar .container, h1{
+      margin: 0 0 0 3%;
+      font-size: 1.4em;
+      width: 100%;
+   }
+   .box h2{
+      margin: 3% auto 3%;
+      width: 162px;
+      font-size: 35px;
+   }
+   .col-xs-12 .box{
+      background-color: grey;
+      margin: 0 2% 0;
+      padding: 10px 2% 0;
+   }
+   h3{
+      font-size: 30px;
+      margin: 1% auto 1% !important;
+      width: 110px;
+   }
+   button{
+      position: absolute;
+      left:80%;
+      top: 35px;
+      height: 50px;
+      width: 80px;
+      background-color: white;
+      border-radius: 7%;
+   }
+}
